@@ -80,7 +80,6 @@ export default function Proposal() {
 
   const handleYes = () => {
     setAccepted(true);
-    window.dispatchEvent(new Event("proposal:accepted"));
     fireConfetti();
     setTimeout(fireConfetti, 700);
     setTimeout(fireConfetti, 1500);

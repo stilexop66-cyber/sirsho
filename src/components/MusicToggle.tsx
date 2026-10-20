@@ -15,18 +15,6 @@ export default function MusicToggle() {
     }
   }, [playing]);
 
-  useEffect(() => {
-    const playAfterAcceptance = () => {
-      const audio = audioRef.current;
-      if (!audio) return;
-      audio.currentTime = 0;
-      audio.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
-    };
-
-    window.addEventListener("proposal:accepted", playAfterAcceptance);
-    return () => window.removeEventListener("proposal:accepted", playAfterAcceptance);
-  }, []);
-
   if (!backgroundSongUrl) return null;
 
   return (
