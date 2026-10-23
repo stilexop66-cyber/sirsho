@@ -77,11 +77,11 @@ export const proposalQuestion = "Will you be my girl forever?";
 export const proposalSubtext =
   "Not just for tonight, or this year — protita din er jonne jekhane ami protidin ador korte prbo tok nijer bolte parbo tor jaegai sob jaegai jete prbo";
 
-export const yesResponseTitle = "You just made me feel what is love how it works  💍";
+export const yesResponseTitle = "You just made me feel what is love , tui amk sikhiyechis ki bhabe bhalo baste hoe thankyou for everything 💍";
 export const yesResponseSubtext =
-  "Thank you for saying yes to me, to us, to everything still waiting for us out there. I love you more than words (or websites) can ever really say.";
+  "amiii achiiiiiiiiiii & always thakbo 🩷🩷🩷🫂🫂";
 
 // Optional: add a background song. Drop an mp3 file into /public/audio and
 // set the path here, e.g. "/audio/our-song.mp3". Leave empty to disable.
-export const backgroundSongUrl = "";
+export const backgroundSongUrl = "/audio/our-song.mp3";
 export const backgroundSongLabel = "Our Song";
