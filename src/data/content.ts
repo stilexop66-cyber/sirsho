@@ -75,9 +75,9 @@ export const reasonsToSayYes = [
 
 export const proposalQuestion = "Will you be my girl forever?";
 export const proposalSubtext =
-  "Not just for tonight, or this year — protita din er jonne jekhane ami protidin ador korte prbo tok nijer bolte parbo tor jaegai sob jaegai jete prbo";
+  "Not just for tonight, or this year — protita din er jonne jekhane ami tok ador korte prbo , tok nijer bolte parbo , tor sathe sob jaegai jete prbo , tor sathe protita din katate parbo";
 
-export const yesResponseTitle = "You just made me feel what is love , tui amk sikhiyechis ki bhabe bhalo baste hoe thankyou for everything ";
+export const yesResponseTitle = "You made me realize what is love , tui amk sikhiyechis ki bhabe bhalo baste hoe thankyou for everything ";
 export const yesResponseSubtext =
   "amiii achiiiiiiiiiii & always thakbo 🩷🩷🩷🫂🫂";
 
